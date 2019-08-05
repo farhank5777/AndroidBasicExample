@@ -11,7 +11,6 @@ import com.example.basicexaple.R;
 
 public class SearchableSpinnerExample extends AppCompatActivity {
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +19,7 @@ public class SearchableSpinnerExample extends AppCompatActivity {
     }
 
     private void initSpinner() {
-        SearchSpinner spinner = (SearchSpinner) findViewById(R.id.spinner);
+        SearchSpinner spinner =  findViewById(R.id.spinner);
         ArrayAdapter adapter = new ArrayAdapter(getApplicationContext(), R.layout.textview, getResources().getStringArray(R.array.language));
         spinner.setAdapter(adapter);
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
