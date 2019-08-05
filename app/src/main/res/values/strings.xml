@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">OpenGLExample</string>
+    <string-array name="language">
+        <item>Java</item>
+        <item>Php</item>
+        <item>C</item>
+        <item>C++</item>
+        <item>C#</item>
+        <item>Python</item>
+        <item>Perl</item>
+        <item>Kotlin</item>
+        <item>Javascript</item>
+        <item>HTML</item>
+        <item>CSS</item>
+    </string-array>
+</resources>
